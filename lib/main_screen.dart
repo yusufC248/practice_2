@@ -19,7 +19,7 @@ class _MainScreenState extends State<MainScreen> {
     ThirdScreen(),
     FourthScreen(),
     SecondScreen(),
-    ThirdScreen(),
+    FourthScreen(),
   ];
 
   void onItemTap(int index){
