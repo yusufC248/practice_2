@@ -19,6 +19,7 @@ class _MainScreenState extends State<MainScreen> {
     ThirdScreen(),
     FourthScreen(),
     SecondScreen(),
+    ThirdScreen(),
   ];
 
   void onItemTap(int index){
@@ -37,9 +38,10 @@ class _MainScreenState extends State<MainScreen> {
           height: 60,
           items: <Widget>[
             Icon(Icons.home, size: 24, color: Colors.white),
-            Icon(Icons.search, size: 24, color: Colors.white),
             Icon(Icons.shopping_cart, size:24, color: Colors.white),
-            Icon(Icons.person, size: 24, color: Colors.white),
+            Icon(Icons.message, size: 24, color: Colors.white),
+            Icon(Icons.group, size: 24, color: Colors.white),
+            Icon(Icons.calendar_today, size: 24, color: Colors.white),
           ],
           animationCurve: Curves.easeInBack,
           animationDuration: const Duration(milliseconds: 280),
